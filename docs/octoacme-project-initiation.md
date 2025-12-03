@@ -17,7 +17,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Stakeholder list & communication plan
 - High-level timeline and key milestones
 - Initial risk list
-- Resource needs (team roles, rough effort estimate)
+- Resource needs (team roles such as Developers, PM, Product Manager, UX/UI Designer, DevOps Engineer, Security Lead, QA, Technical Writer, Customer Support Liaison - as applicable, with rough effort estimate)
 
 ## Project One-pager Template
 - Project name:

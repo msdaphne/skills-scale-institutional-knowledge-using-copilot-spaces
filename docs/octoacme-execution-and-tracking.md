@@ -22,6 +22,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- Accessibility testing for UI changes
+- Follow [QA & Security Checklists](octoacme-qa-security-checklists.md) for comprehensive quality standards
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -38,3 +40,5 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Communication cadence established (see [Communication Templates](octoacme-communication-templates.md))
+- [ ] QA and security review processes in place (see [QA & Security Checklists](octoacme-qa-security-checklists.md))
