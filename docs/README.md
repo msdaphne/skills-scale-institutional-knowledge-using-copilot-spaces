@@ -9,9 +9,12 @@ This README serves as the central hub for understanding OctoAcme's project manag
 ## Quick Start
 
 - **New to OctoAcme?** Start with [Project Lifecycle](#project-lifecycle-phases) to understand how we run projects
+- **Onboarding to a project?** See [Onboarding Checklist](octoacme-onboarding-checklist.md)
 - **Starting a new project?** See [Project Initiation](octoacme-project-initiation.md)
 - **Need to understand roles?** Check [Key Personas & Roles](#key-personas--roles)
 - **Looking for communication guidelines?** Jump to [Communication & Escalation](#communication--escalation)
+- **Need templates?** See [Communication Templates](octoacme-communication-templates.md)
+- **Quality & Security?** Review [QA & Security Checklists](octoacme-qa-security-checklists.md)
 
 ---
 
@@ -93,6 +96,8 @@ OctoAcme projects follow a five-phase lifecycle designed for iterative delivery 
 - **Backlog Items:** Title, description, acceptance criteria, priority, estimate, owner
 - **Release Notes:** Release name, date, summary, notable changes, migration steps
 - **Risk Register:** ID, description, impact, likelihood, owner, mitigation, status
+- **Communication Templates:** Weekly status, sprint planning, design reviews, incident reports ([see all templates](octoacme-communication-templates.md))
+- **QA & Security Checklists:** Comprehensive checklists for quality and security ([see all checklists](octoacme-qa-security-checklists.md))
 
 ### Team Rhythm
 - **Daily Standups (15 min):** Progress, blockers, dependencies
@@ -144,6 +149,51 @@ OctoAcme projects involve cross-functional collaboration across these key roles:
 - Assist in estimating and planning work
 - Identify technical risks and propose mitigations
 
+### UX/UI Designer
+**Create user-centered designs that balance usability and visual appeal**
+
+- Conduct user research and usability testing
+- Create wireframes, mockups, and interactive prototypes
+- Design consistent and accessible user interfaces
+- Collaborate with Product Managers and Developers
+- Maintain design documentation and component libraries
+
+### Technical Writer/Documentation Specialist
+**Create and maintain clear, accurate documentation**
+
+- Write user guides, API documentation, and release notes
+- Create internal process documentation and runbooks
+- Ensure documentation follows style guides and accessibility standards
+- Review documentation during code reviews and releases
+- Gather feedback to continuously improve documentation quality
+
+### DevOps/Platform Engineer
+**Build and maintain infrastructure, tooling, and automation**
+
+- Design, build, and maintain CI/CD pipelines
+- Manage infrastructure as code and cloud resources
+- Implement monitoring, logging, and alerting systems
+- Ensure system reliability, scalability, and performance
+- Respond to incidents and participate in on-call rotations
+
+### Customer Support Liaison
+**Bridge the gap between users and the product team**
+
+- Triage and escalate customer issues to appropriate teams
+- Represent customer perspective in planning and retrospectives
+- Track support trends to identify product improvements
+- Coordinate with Product Managers on feature requests
+- Provide input on release communications and customer impact
+
+### Security Lead
+**Ensure security is integrated throughout the development lifecycle**
+
+- Define security requirements and acceptance criteria
+- Conduct threat modeling and security reviews
+- Oversee security scanning tools and vulnerability management
+- Respond to security incidents and coordinate remediation
+- Educate team members on secure coding practices
+
 ### QA/Testing
 **Validate quality and acceptance criteria**
 
@@ -164,6 +214,10 @@ OctoAcme projects involve cross-functional collaboration across these key roles:
 ### Role Interactions
 - **PM ↔ PdM:** Weekly alignment on priorities, risks, and roadmap
 - **Developers ↔ QA:** Continuous collaboration on testability and quality
+- **Developers ↔ UX/UI Designer:** Pair on implementation and technical feasibility
+- **DevOps ↔ Security Lead:** Implement security controls in infrastructure and CI/CD
+- **Customer Support Liaison ↔ Product Manager:** Share customer insights and feature requests
+- **Technical Writer ↔ Developers:** Review technical accuracy and gather implementation details
 - **PM ↔ Stakeholders:** Regular updates and escalation when needed
 - **PdM ↔ Stakeholders:** Gather requirements and validate solutions
 
@@ -296,7 +350,10 @@ docs/
 ├── octoacme-release-and-deployment.md
 ├── octoacme-retrospective-and-continuous-improvement.md
 ├── octoacme-risks-and-communication.md
-└── octoacme-roles-and-personas.md
+├── octoacme-roles-and-personas.md
+├── octoacme-onboarding-checklist.md
+├── octoacme-communication-templates.md
+└── octoacme-qa-security-checklists.md
 ```
 
 ---
@@ -334,6 +391,9 @@ Our project management approach is guided by these principles:
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) - Learning and improving
 - [Risk Management & Communication](octoacme-risks-and-communication.md) - Managing risks and stakeholder communication
 - [Roles & Personas](octoacme-roles-and-personas.md) - Team roles and responsibilities
+- [Onboarding Checklist](octoacme-onboarding-checklist.md) - Guide for new team members
+- [Communication Templates](octoacme-communication-templates.md) - Standardized communication formats
+- [QA & Security Checklists](octoacme-qa-security-checklists.md) - Quality and security standards
 
 ---
 
